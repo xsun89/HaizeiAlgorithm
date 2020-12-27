@@ -1,4 +1,5 @@
 //Createdby Xin Sun on 2020-12-25
+//滑动窗口
 #include <iostream>
 
 using namespace std;
@@ -12,11 +13,11 @@ int main() {
 
     for (int i = 0; i < 1000; i++) {
         if (i < 13) {
-            in = (int) data[i] - 48;
+            in = data[i] - '0';
             num *= in;
         } else {
-            out = (int) data[i - 13] - 48;
-            in = (int) data[i] - 48;
+            out = data[i - 13] - '0';
+            in = data[i] - '0';
 
             if (out == 0) {
                 zero--;
