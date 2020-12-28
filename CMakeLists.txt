@@ -3,4 +3,4 @@ project(HaizeiAlgorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(HaizeiAlgorithm euler11.cpp)
+add_executable(HaizeiAlgorithm euler13.cpp)
